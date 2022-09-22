@@ -17,7 +17,6 @@ This software is a simple steam market CS:GO cases scraper in python3.
   - Momentum history on the last year (10 days window)
 - Save results in a json file
 - Plot example
-  ![Plot example](imgs/example.png)
 
 # Installation
 
@@ -68,3 +67,11 @@ python run.py
 ```
 
 Results are stored in the file "items_results.json"
+
+## Plot momentum example
+
+```
+python plot_momentum1Y.py
+```
+
+![Plot example](imgs/example.png)
